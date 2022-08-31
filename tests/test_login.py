@@ -16,6 +16,7 @@ class TestHomePage(BaseClass):
         assert "True"==str(value)
         log.info("Logged in successfully")
         #changes for git hub
+        #new changes
 
     @pytest.fixture(params=LoginPageData.gettestdata("test_case1"))
     def getdata(self, request):
